@@ -1,0 +1,30 @@
+{
+  "name": "dubai-realty",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://Yarklim.github.io/dubai-realty",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /dubai-realty/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yarklim/dubai-realty.git"
+  },
+  "keywords": [],
+  "author": "yarklim yarklim@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yarklim/dubai-realty/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

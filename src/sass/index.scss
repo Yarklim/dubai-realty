@@ -1,1 +1,8 @@
-@import './utils/common';
+// general
+@import './base/reset';
+@import './base/common';
+@import './base/container';
+
+// utils
+@import './utils/variables';
+@import './utils/mixins';
